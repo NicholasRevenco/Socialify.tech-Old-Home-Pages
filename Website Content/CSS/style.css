@@ -1,0 +1,10 @@
+#home_header {
+  text-align: center;
+  background-image: url("https://martech.org/wp-content/uploads/2014/11/social-media-networks-icons-ss-1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: center;
+  background-attachment: cover;
+  background-size: cover;
+  height: 110vh;
+}
