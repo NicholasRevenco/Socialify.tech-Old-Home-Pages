@@ -17,6 +17,45 @@
   transition: 700ms;
 }
 
+.socialmedia_rightleft {
+  height: 100px;
+  animation-name: rightleft;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rightleft {
+  0% {margin-left: -50px;}
+  50% {margin-left: 50px;}
+  100% {margin-left: -50px;}
+}
+
+.socialmedia_leftright {
+  height: 100px;
+  animation-name: leftright;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes leftright {
+  0% {margin-right: -50px;}
+  50% {margin-right: 50px;}
+  100% {margin-right: -50px;}
+}
+
+.socialmedia_updown {
+  height: 100px;
+  animation-name: updown;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes updown {
+  0% {padding-top: -50px;}
+  50% {padding-top: 50px;}
+  100% {padding-top: -50px;}
+}
+
 .link {
   text-decoration: none;
 }
