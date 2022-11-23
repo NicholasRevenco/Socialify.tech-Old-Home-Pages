@@ -12,6 +12,11 @@
   width: 100%;
 }
 
+.socialmedia_content:hover {
+  background-color: rgb(127, 131, 136) !important;
+  transition: 700ms;
+}
+
 .link {
   text-decoration: none;
 }
