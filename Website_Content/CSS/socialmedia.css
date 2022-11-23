@@ -1,3 +1,5 @@
+/* This CSS file is for the "We Offer Services On" index.html section */
+
 .socialmedia_content:hover {
   background-color: rgb(127, 131, 136) !important;
   transition: 700ms;
@@ -33,7 +35,7 @@
 
 .socialmedia_updown {
   height: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   animation-name: updown;
   animation-duration: 4s;
   animation-iteration-count: infinite;
