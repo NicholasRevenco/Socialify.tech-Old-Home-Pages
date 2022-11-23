@@ -19,6 +19,7 @@
 
 .socialmedia_rightleft {
   height: 100px;
+  margin-bottom: 20px;
   animation-name: rightleft;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -32,6 +33,7 @@
 
 .socialmedia_leftright {
   height: 100px;
+  margin-bottom: 20px;
   animation-name: leftright;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -45,6 +47,7 @@
 
 .socialmedia_updown {
   height: 100px;
+  margin-bottom: 50px;
   animation-name: updown;
   animation-duration: 4s;
   animation-iteration-count: infinite;
