@@ -10,6 +10,9 @@ const navbar_button = document.querySelector('.navbar_button');
 const bar_change_1 = document.querySelector('.bar_change_1');
 const bar_change_2 = document.querySelector('.bar_change_2');
 const bar_change_3 = document.querySelector('.bar_change_3');
+const navbar_link_1 = document.querySelector('.navbar_link_1');
+const navbar_link_2 = document.querySelector('.navbar_link_2');
+const navbar_link_3 = document.querySelector('.navbar_link_3');
 
 window.onscroll = function() {
   var top = window.scrollY;
@@ -23,6 +26,9 @@ window.onscroll = function() {
     bar_change_1.classList.add('active');
     bar_change_2.classList.add('active');
     bar_change_3.classList.add('active');
+    navbar_link_1.classList.add('active');
+    navbar_link_2.classList.add('active');
+    navbar_link_3.classList.add('active');
   } else {
     navbar_change.classList.remove('active');
     navbar_link_scroll_1.classList.remove('active');
@@ -32,6 +38,9 @@ window.onscroll = function() {
     bar_change_1.classList.remove('active');
     bar_change_2.classList.remove('active');
     bar_change_3.classList.remove('active');
+    navbar_link_1.classList.remove('active');
+    navbar_link_2.classList.remove('active');
+    navbar_link_3.classList.remove('active');
   }
 }
 

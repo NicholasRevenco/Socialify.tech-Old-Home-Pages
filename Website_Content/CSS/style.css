@@ -17,9 +17,11 @@ p {
   font-size:14px;
 }
 
-
 /* For links in site */
-.navbar_link::after {
+
+/* Navbar links */
+
+.navbar_link_1::after {
   content: '';
   width: 0px;
   height: 3px;
@@ -29,9 +31,109 @@ p {
   text-decoration: underline overline;
 }
 
-.navbar_link:hover::after {
+.navbar_link_1:hover::after {
   width: 100%;
 }
+
+.navbar_link_1.active::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: black;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_1.active:hover::after {
+  width: 100%;
+}
+
+.navbar_link_1::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: white;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_1:hover::after {
+  width: 100%;
+}
+
+.navbar_link_2::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: white;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_2:hover::after {
+  width: 100%;
+}
+
+.navbar_link_2.active::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: black;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_2.active:hover::after {
+  width: 100%;
+}
+
+.navbar_link_3::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: white;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_3:hover::after {
+  width: 100%;
+}
+
+.navbar_link_3.active::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: black;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_3.active:hover::after {
+  width: 100%;
+}
+
+.navbar_link_collapsed::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: black;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
+.navbar_link_collapsed:hover::after {
+  width: 100%;
+}
+
+/* Non-navbar links */
 
 .link {
   text-decoration: none;
