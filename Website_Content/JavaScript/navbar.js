@@ -2,21 +2,6 @@
 
 /* Need to find a way to call all classes */
 
-/*const navbar_change = document.querySelector('.navbar_change');
-const navbar_link_scroll = document.querySelectorAll('.navbar_link_scroll');
-
-
-window.onscroll = function() {
-  var top = window.scrollY;
-  if (top >= 50) {
-    navbar_change.classList.add('active')
-    navbar_link_scroll.classList.add('active');
-  } else {
-    navbar_change.classList.remove('active');
-    navbar_link_scroll.classList.remove('active');
-  }
-}*/
-
 const navbar_change = document.querySelector('.navbar_change');
 const navbar_link_scroll_1 = document.querySelector('.navbar_link_scroll_1');
 const navbar_link_scroll_2 = document.querySelector('.navbar_link_scroll_2');
@@ -28,7 +13,8 @@ const bar_change_3 = document.querySelector('.bar_change_3');
 
 window.onscroll = function() {
   var top = window.scrollY;
-  if (top >= 50) {
+  if (top >= 50 || check > 0) {
+    const check = 1
     navbar_change.classList.add('active')
     navbar_link_scroll_1.classList.add('active');
     navbar_link_scroll_2.classList.add('active');
