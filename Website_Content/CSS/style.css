@@ -60,3 +60,8 @@
   background-size: cover;
   height: 110vh;
 }
+
+.planning_options:hover {
+  background-color: rgb(230, 230, 230) !important;
+  transition: 700ms;
+}
