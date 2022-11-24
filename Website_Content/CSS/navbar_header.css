@@ -70,6 +70,15 @@
   transition: all 0.5s;
 }
 
+.navbar_button_hover_click:hover {
+  background-color: rgb(240, 240, 240) !important;
+}
+
+.navbar_button_hover_click:active {
+  background-color: rgb(225, 225, 225) !important;
+  border-color: rgb(225, 225, 225) !important;
+}
+
 /* Transition for color in navbar collapse button */
 
 .bar_change_1 {
