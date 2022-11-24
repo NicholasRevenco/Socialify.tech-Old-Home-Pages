@@ -21,6 +21,7 @@ const navbar_change = document.querySelector('.navbar_change');
 const navbar_link_scroll_1 = document.querySelector('.navbar_link_scroll_1');
 const navbar_link_scroll_2 = document.querySelector('.navbar_link_scroll_2');
 const navbar_link_scroll_3 = document.querySelector('.navbar_link_scroll_3');
+const navbar_button = document.querySelector('.navbar_button');
 
 
 window.onscroll = function() {
@@ -30,11 +31,13 @@ window.onscroll = function() {
     navbar_link_scroll_1.classList.add('active');
     navbar_link_scroll_2.classList.add('active');
     navbar_link_scroll_3.classList.add('active');
+    navbar_button.classList.add('active');
   } else {
     navbar_change.classList.remove('active');
     navbar_link_scroll_1.classList.remove('active');
     navbar_link_scroll_2.classList.remove('active');
     navbar_link_scroll_3.classList.remove('active');
+    navbar_button.classList.remove('active');
   }
 }
 

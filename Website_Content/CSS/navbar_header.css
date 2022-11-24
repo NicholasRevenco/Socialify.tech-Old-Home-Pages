@@ -57,6 +57,17 @@
   transition: all 0.5s;
 }
 
+.navbar_button.active {
+  background-color: rgb(34, 37, 41) !important;
+  color: white !important;
+}
+
+.navbar_button {
+  background-color: white !important;
+  color: rgb(34, 37, 41) !important;
+  transition: all 0.5s;
+}
+
 /* Header in site */
 
 .header {
