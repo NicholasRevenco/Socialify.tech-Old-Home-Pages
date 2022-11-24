@@ -8,7 +8,7 @@ function reveal() {
     // Sets elementTop to the position of in relative to the viewport
     var elementTop = reveals[i].getBoundingClientRect().top;
     // How far away the "reveal" tag it should react
-    var elementVisible = 15;
+    var elementVisible = 50;
     // If the user has scrolled past a certain point, the if statment will run
     if (elementTop < windowHeight - elementVisible) {
       // Active or inactive
