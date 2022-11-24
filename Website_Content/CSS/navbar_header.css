@@ -20,7 +20,40 @@
   text-align: center;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-  background-color: rgb(19, 22, 26);
+  background-color: rgb(250, 250, 250);
+  transition: all 0.5s;
+}
+
+/* Transition for color in navbar links */
+/* Need to find out how to simplify this */
+
+.navbar_link_scroll_1 {
+  color: white !important;
+  transition: all 0.5s;
+}
+
+.navbar_link_scroll_1.active {
+  color: rgb(34, 37, 41) !important;
+  transition: all 0.5s;
+}
+
+.navbar_link_scroll_2 {
+  color: white !important;
+  transition: all 0.5s;
+}
+
+.navbar_link_scroll_2.active {
+  color: rgb(34, 37, 41) !important;
+  transition: all 0.5s;
+}
+
+.navbar_link_scroll_3 {
+  color: white !important;
+  transition: all 0.5s;
+}
+
+.navbar_link_scroll_3.active {
+  color: rgb(34, 37, 41) !important;
   transition: all 0.5s;
 }
 
