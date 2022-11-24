@@ -28,6 +28,24 @@
   text-decoration: underline overline;
 }
 
+.link_dark {
+  text-decoration: none;
+}
+
+.link_dark:hover::after {
+  width: 115px;
+}
+
+.link_dark::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: white;
+  transition: 300ms;
+  text-decoration: underline overline;
+}
+
 .link:hover::after {
   width: 140px;
 }
