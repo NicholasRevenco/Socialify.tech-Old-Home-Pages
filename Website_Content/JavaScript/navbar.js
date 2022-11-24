@@ -64,13 +64,19 @@ window.onresize = function() {
   }
 }
 
-/*window.onload = function() {
+window.onload = function() {
   var width = window.innerWidth;
   if (width <= 600) {
     navbar_change.classList.add('active')
+    bar_change_1.classList.add('active');
+    bar_change_2.classList.add('active');
+    bar_change_3.classList.add('active');
   } else {
     navbar_change.classList.remove('active');
+    bar_change_1.classList.remove('active');
+    bar_change_2.classList.remove('active');
+    bar_change_3.classList.remove('active');
   }
-}*/
+}
 
 /* End here */
