@@ -61,8 +61,13 @@
   height: 110vh;
 }
 
-.planning_options:hover {
-  background-color: rgb(230, 230, 230) !important;
+.planning_options_blue:hover {
+  background-color: rgb(212, 238, 249) !important;
+  transition: 700ms;
+}
+
+.planning_options_red:hover {
+  background-color: rgb(245, 218, 218) !important;
   transition: 700ms;
 }
 
