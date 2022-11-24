@@ -36,7 +36,7 @@
 }
  .tabs ul li label {
 	 transition: all 0.3s ease-in-out;
-	 color: #929daf;
+	 color: rgb(127, 131, 136);
 	 padding: 5px auto;
 	 overflow: hidden;
 	 text-overflow: ellipsis;
@@ -50,7 +50,7 @@
 	 display: none;
 }
  .tabs ul li label svg {
-	 fill: #929daf;
+	 fill: rgb(127, 131, 136);
 	 height: 1.2em;
 	 vertical-align: bottom;
 	 margin-right: 0.2em;
@@ -58,10 +58,10 @@
 }
  .tabs ul li label:hover, .tabs ul li label:focus, .tabs ul li label:active {
 	 outline: 0;
-	 color: #bec5cf;
+	 color: rgb(150, 150, 150);
 }
  .tabs ul li label:hover svg, .tabs ul li label:focus svg, .tabs ul li label:active svg {
-	 fill: #bec5cf;
+	 fill: rgb(150, 150, 150);
 }
  .tabs .slider {
 	 position: relative;
