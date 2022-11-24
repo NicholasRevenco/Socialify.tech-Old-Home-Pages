@@ -1,5 +1,6 @@
 /* This CSS file is for regular CSS additions */
 
+/* For links in site */
 .navbar_link::after {
   content: '';
   width: 0px;
@@ -50,6 +51,8 @@
   width: 140px;
 }
 
+/* For the header in site */
+
 #home_header {
   text-align: center;
   background-image: url("https://martech.org/wp-content/uploads/2014/11/social-media-networks-icons-ss-1920.jpg");
@@ -60,6 +63,8 @@
   background-size: cover;
   height: 110vh;
 }
+
+/* For the Services section in site */
 
 .planning_options_blue:hover {
   background-color: rgb(212, 238, 249) !important;
