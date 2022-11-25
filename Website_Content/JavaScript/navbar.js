@@ -17,7 +17,7 @@ const navbar_link_3 = document.querySelector('.navbar_link_3');
 window.onscroll = function() {
   var top = window.scrollY;
   if (top >= 50 || check > 0) {
-    const check = 1
+    var check = 1
     navbar_change.classList.add('active')
     navbar_link_scroll_1.classList.add('active');
     navbar_link_scroll_2.classList.add('active');
@@ -61,7 +61,7 @@ window.onresize = function() {
 
 window.onload = function() {
   var width = window.innerWidth;
-  if (width <= 600) {
+  if (width < 577) {
     navbar_change.classList.add('active')
     bar_change_1.classList.add('active');
     bar_change_2.classList.add('active');
@@ -73,5 +73,3 @@ window.onload = function() {
     bar_change_3.classList.remove('active');
   }
 }
-
-/* End here */
