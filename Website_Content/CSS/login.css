@@ -158,7 +158,6 @@ input {
 
 .overlay {
 	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
 	background: linear-gradient(to right, #FF4B2B, #FF416C);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -259,4 +258,24 @@ footer a {
 .socialmedia_hover:hover {
   background-color: rgb(225, 225, 225) !important;
   transition: 700ms;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link::after {
+  content: '';
+	color: black;
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: linear-gradient(to right, #FF4B2B, #FF416C);;
+  transition: 300ms;
+  text-decoration: underline overline;
+	margin-left: 40px;
+}
+
+.link:hover::after {
+  width: 120px;
 }
