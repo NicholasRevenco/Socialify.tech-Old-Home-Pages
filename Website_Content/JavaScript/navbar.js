@@ -1,5 +1,7 @@
 /* This is required to make the navbar change color when scrolled */
 
+/* Need to simplify */
+
 const navbar_change = document.querySelector('.navbar_change');
 const navbar_link_scroll_1 = document.querySelector('.navbar_link_scroll_1');
 const navbar_link_scroll_2 = document.querySelector('.navbar_link_scroll_2');
@@ -12,117 +14,85 @@ const navbar_link_1 = document.querySelector('.navbar_link_1');
 const navbar_link_2 = document.querySelector('.navbar_link_2');
 const navbar_link_3 = document.querySelector('.navbar_link_3');
 
+function active() {
+  navbar_change.classList.add('active')
+  navbar_link_scroll_1.classList.add('active');
+  navbar_link_scroll_2.classList.add('active');
+  navbar_link_scroll_3.classList.add('active');
+  navbar_button.classList.add('active');
+  bar_change_1.classList.add('active');
+  bar_change_2.classList.add('active');
+  bar_change_3.classList.add('active');
+  navbar_link_1.classList.add('active');
+  navbar_link_2.classList.add('active');
+  navbar_link_3.classList.add('active');
+}
+
+function inactive() {
+  navbar_change.classList.remove('active');
+  navbar_link_scroll_1.classList.remove('active');
+  navbar_link_scroll_2.classList.remove('active');
+  navbar_link_scroll_3.classList.remove('active');
+  navbar_button.classList.remove('active');
+  bar_change_1.classList.remove('active');
+  bar_change_2.classList.remove('active');
+  bar_change_3.classList.remove('active');
+  navbar_link_1.classList.remove('active');
+  navbar_link_2.classList.remove('active');
+  navbar_link_3.classList.remove('active');
+}
+
+function active_bar() {
+  navbar_change.classList.add('active')
+  bar_change_1.classList.add('active');
+  bar_change_2.classList.add('active');
+  bar_change_3.classList.add('active');
+}
+
+function inactive_bar() {
+  navbar_change.classList.remove('active');
+  bar_change_1.classList.remove('active');
+  bar_change_2.classList.remove('active');
+  bar_change_3.classList.remove('active');
+};
+
 window.onscroll = function() {
   var top = window.scrollY;
   if (top >= 50) {
-    navbar_change.classList.add('active')
-    navbar_link_scroll_1.classList.add('active');
-    navbar_link_scroll_2.classList.add('active');
-    navbar_link_scroll_3.classList.add('active');
-    navbar_button.classList.add('active');
-    bar_change_1.classList.add('active');
-    bar_change_2.classList.add('active');
-    bar_change_3.classList.add('active');
-    navbar_link_1.classList.add('active');
-    navbar_link_2.classList.add('active');
-    navbar_link_3.classList.add('active');
+    active();
   } else {
-    navbar_change.classList.remove('active');
-    navbar_link_scroll_1.classList.remove('active');
-    navbar_link_scroll_2.classList.remove('active');
-    navbar_link_scroll_3.classList.remove('active');
-    navbar_button.classList.remove('active');
-    bar_change_1.classList.remove('active');
-    bar_change_2.classList.remove('active');
-    bar_change_3.classList.remove('active');
-    navbar_link_1.classList.remove('active');
-    navbar_link_2.classList.remove('active');
-    navbar_link_3.classList.remove('active');
+    inactive();
   }
 }
 
 window.onresize = function() {
   var width = window.innerWidth;
   if (width < 577) {
-    navbar_change.classList.add('active')
-    bar_change_1.classList.add('active');
-    bar_change_2.classList.add('active');
-    bar_change_3.classList.add('active');
+    active_bar();
   } else {
-    navbar_change.classList.remove('active');
-    bar_change_1.classList.remove('active');
-    bar_change_2.classList.remove('active');
-    bar_change_3.classList.remove('active');
+    inactive_bar();
   }
 
   var top = window.scrollY;
   if (top >= 50 || check > 0) {
-    var check = 1
-    navbar_change.classList.add('active')
-    navbar_link_scroll_1.classList.add('active');
-    navbar_link_scroll_2.classList.add('active');
-    navbar_link_scroll_3.classList.add('active');
-    navbar_button.classList.add('active');
-    bar_change_1.classList.add('active');
-    bar_change_2.classList.add('active');
-    bar_change_3.classList.add('active');
-    navbar_link_1.classList.add('active');
-    navbar_link_2.classList.add('active');
-    navbar_link_3.classList.add('active');
+    active();
   } else {
-    navbar_change.classList.remove('active');
-    navbar_link_scroll_1.classList.remove('active');
-    navbar_link_scroll_2.classList.remove('active');
-    navbar_link_scroll_3.classList.remove('active');
-    navbar_button.classList.remove('active');
-    bar_change_1.classList.remove('active');
-    bar_change_2.classList.remove('active');
-    bar_change_3.classList.remove('active');
-    navbar_link_1.classList.remove('active');
-    navbar_link_2.classList.remove('active');
-    navbar_link_3.classList.remove('active');
+    inactive();
   }
 }
 
 window.onload = function() {
   var width = window.innerWidth;
   if (width < 577) {
-    navbar_change.classList.add('active')
-    bar_change_1.classList.add('active');
-    bar_change_2.classList.add('active');
-    bar_change_3.classList.add('active');
+    active_bar();
   } else {
-    navbar_change.classList.remove('active');
-    bar_change_1.classList.remove('active');
-    bar_change_2.classList.remove('active');
-    bar_change_3.classList.remove('active');
+    inactive_bar();
   }
 
   var top = window.scrollY;
   if (top >= 50 || check > 0) {
-    var check = 1
-    navbar_change.classList.add('active')
-    navbar_link_scroll_1.classList.add('active');
-    navbar_link_scroll_2.classList.add('active');
-    navbar_link_scroll_3.classList.add('active');
-    navbar_button.classList.add('active');
-    bar_change_1.classList.add('active');
-    bar_change_2.classList.add('active');
-    bar_change_3.classList.add('active');
-    navbar_link_1.classList.add('active');
-    navbar_link_2.classList.add('active');
-    navbar_link_3.classList.add('active');
+    active();
   } else {
-    navbar_change.classList.remove('active');
-    navbar_link_scroll_1.classList.remove('active');
-    navbar_link_scroll_2.classList.remove('active');
-    navbar_link_scroll_3.classList.remove('active');
-    navbar_button.classList.remove('active');
-    bar_change_1.classList.remove('active');
-    bar_change_2.classList.remove('active');
-    bar_change_3.classList.remove('active');
-    navbar_link_1.classList.remove('active');
-    navbar_link_2.classList.remove('active');
-    navbar_link_3.classList.remove('active');
+    inactive();
   }
 }
