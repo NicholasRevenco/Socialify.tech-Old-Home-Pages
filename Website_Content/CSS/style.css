@@ -173,9 +173,19 @@ p {
 
 /* For the Services section in site */
 
+.planning_options_blue {
+  background-color: rgb(255, 255, 255) !important;
+  transition: 400ms;
+}
+
 .planning_options_blue:hover {
   background-color: rgb(212, 238, 249) !important;
-  transition: 700ms;
+  transition: 500ms;
+}
+
+.planning_options_red {
+  background-color: rgb(255, 255, 255) !important;
+  transition: 400ms;
 }
 
 .planning_options_red:hover {
@@ -189,6 +199,7 @@ p {
   padding: 10px;
   padding-bottom: 15px;
   border-radius: 10px;
+  transition: 400ms;
 }
 
 .socialmedia_hover:hover {
