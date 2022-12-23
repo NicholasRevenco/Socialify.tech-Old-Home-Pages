@@ -43,18 +43,16 @@ function inactive() {
 }
 
 window.onscroll = function() {
-  if (window.scrollY >= 50) {
+  if (window.pageYOffset >= 50) {
     active();
   } else {
-    inactive();
+    console.log("pass");
   }
 }
 
-window.onload = function() {
-
+window.addEventListener("load", function() {
   if (window.innerWidth > 576) {
     window.scrollY = 0;
-    console.log(window.scrollY);
   } else if (window.innerWidth < 577) {
     window.scrollY = 50;
   }
@@ -62,9 +60,9 @@ window.onload = function() {
   if (window.scrollY >= 50) {
     active();
   } else {
-    inactive();
+    console.log("pass");
   }
-}
+});
 
 window.addEventListener("resize", function() {
 
@@ -78,6 +76,6 @@ window.addEventListener("resize", function() {
   if (window.scrollY >= 50) {
     active();
   } else {
-    inactive();
+    console.log("pass");
   }
 });
