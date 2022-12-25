@@ -44,31 +44,27 @@
           </li>
         </ul>
         <!-- Button on navbar -->
-          <a class="btn navbar_button" style="font-weight: 600; font-size: 14px; margin-right: 5%; width: 150px;" href="login.html">Checkout</a>
+          <a class="btn navbar_button" style="font-weight: 600; font-size: 14px; margin-right: 5%; width: 150px;" href="planning.html">Checkout</a>
       </div>
     </nav>
 
     <!-- Navbar collapse -->
-    <div class="offcanvas offcanvas-end offcanvas-body" style="background-color: white; width: 100%;" id="collapse_id">
-      <a style="margin-left: 5%;" class="navbar-brand" href="index.html"><img class="nav_home" alt="Logo" style="width: 100px;" src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo.png"/></a>
-      <button style="margin-left: 90%; margin-top: 20px; width: 25px; top: -25px;" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_id" aria-controls="collapse_id" aria-expanded="false">
-        <span class="toggler-icon top-bar bg-dark"></span>
-        <span class="toggler-icon middle-bar bg-dark"></span>
-        <span class="toggler-icon bottom-bar bg-dark"></span>
-      </button>
-      <!-- Content of navbar collapse -->
-      <div style="margin-left: auto; margin-right: auto; text-align: center; display: grid; height: 66%; align-content: space-evenly;">
-        <div style="margin-top: -75px;">
-          <a style="font-weight: 600; font-size: 18px;" class="nav-link text-dark navbar_link_collapsed" href="planning.html">Planning &#5167;</a>
+    <div id="navbar_open_close">
+      <div class="offcanvas offcanvas-end offcanvas-body" style="background-color: rgb(250, 250, 250); width: 100%; margin-top: 75px;" id="collapse_id">
+        <!-- Content of navbar collapse -->
+        <div style="margin-left: auto; margin-right: auto; text-align: center; display: grid; height: 66%; align-content: space-evenly;">
+          <div style="margin-top: -75px;">
+            <a style="font-weight: 600; font-size: 18px;" class="nav-link text-dark navbar_link_collapsed" href="planning.html">Planning &#5167;</a>
+          </div>
+          <div style="margin-top: -75px;">
+            <a style="font-weight: 600; font-size: 18px;" class="nav-link text-dark navbar_link_collapsed"  href="planning.html">Pricing &#5167;</a>
+          </div>
+          <div style="margin-top: -75px;">
+            <a style="font-weight: 600; font-size: 18px;" class="nav-link text-dark navbar_link_collapsed"  href="#">Founding &#5167;</a>
+          </div>
         </div>
-        <div style="margin-top: -75px;">
-          <a style="font-weight: 600; font-size: 18px;" class="nav-link text-dark navbar_link_collapsed"  href="planning.html">Pricing &#5167;</a>
-        </div>
-        <div style="margin-top: -75px;">
-          <a style="font-weight: 600; font-size: 18px;" class="nav-link text-dark navbar_link_collapsed"  href="#">Founding &#5167;</a>
-        </div>
+        <a class="btn btn-dark" style="font-weight: 600; font-size: 18px; margin-left: auto; margin-right: auto; width: 50%; margin-top: -75px;" href="login.html">Checkout</a>
       </div>
-      <a class="btn btn-dark" style="font-weight: 600; font-size: 18px; margin-left: auto; margin-right: auto; width: 50%; margin-top: -75px;" href="planning.html">Getting Started</a>
     </div>
 
     <!-- Conent of site -->
@@ -100,7 +96,7 @@
     <hr style="color: white;"/>
 
     <!-- Simple Overview section -->
-    <div class="container">
+    <div class="container" style="padding-left: 5%; padding-right: 5%;">
       <div style="text-align: center;">
         <h1 style="margin-top: 30px; margin-bottom: -10px;">Simple Overview</h1>
       </div>
@@ -197,7 +193,7 @@
           <tbody>
             <tr>
               <td style="font-weight: 800;">Option 1</td>
-              <td style="background-color: rgb(255, 201, 201); border-bottom-right-radius: 15px; border-radius: 100px; color: black;">$25 USD <span style="font-size: 10px;">/ month</span></td>
+              <td style="background-color: rgb(255, 201, 201); border-bottom-right-radius: 15px; border-radius: 10px; color: black;">$25 USD <span style="font-size: 10px;">/ month</span></td>
               <td>$22 USD <span style="font-size: 10px;">/ month</span></td>
               <td>$18 USD <span style="font-size: 10px;">/ month</span></td>
             </tr>
@@ -205,7 +201,7 @@
               <td style="font-weight: 800;">Option 2</td>
               <td>$28 USD <span style="font-size: 10px;">/ month</span></td>
               <td>$24 USD <span style="font-size: 10px;">/ month</span></td>
-              <td style="background-color: rgb(204, 255, 201); color: black; border-radius: 100px;">$20 USD <span style="font-size: 10px;">/ month</span></td>
+              <td style="background-color: rgb(204, 255, 201); color: black; border-radius: 15px;">$20 USD <span style="font-size: 10px;">/ month</span></td>
             </tr>
           </tbody>
         </table>
