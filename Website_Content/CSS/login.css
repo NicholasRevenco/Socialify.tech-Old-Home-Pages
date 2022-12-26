@@ -31,7 +31,7 @@ a {
 button {
 	border-radius: 20px;
 	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	background-color: linear-gradient(to right, #FFBE7BFF, #FFA351FF);;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -142,7 +142,7 @@ input {
 }
 
 .overlay {
-	background: linear-gradient(to left, rgb(104, 161, 252), rgb(79, 147, 255));
+	background: linear-gradient(to left, #FFBE7BFF, #FFA351FF);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -240,7 +240,7 @@ footer a {
 }
 
 .socialmedia_hover:hover {
-  background-color: rgb(225, 225, 225) !important;
+  background-color: linear-gradient(to right, #FFBE7BFF, #FFA351FF); !important;
   transition: 700ms;
 }
 
@@ -254,7 +254,7 @@ color: black;
   width: 0px;
   height: 3px;
   display: block;
-  background: linear-gradient(to right, rgb(66, 135, 245), rgb(66, 135, 245));;
+  background: linear-gradient(to left, #FFBE7BFF, #FFA351FF);
   transition: 300ms;
   text-decoration: underline overline;
 margin-left: 40px;
