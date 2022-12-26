@@ -240,7 +240,7 @@ footer a {
 }
 
 .socialmedia_hover:hover {
-  background-color: linear-gradient(to right, #FFBE7BFF, #FFA351FF); !important;
+  background-color: linear-gradient(to right, #FFBE7BFF, #FFA351FF) !important;
   transition: 700ms;
 }
 
