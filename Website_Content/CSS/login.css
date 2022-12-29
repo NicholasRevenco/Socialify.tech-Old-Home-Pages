@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-
 
 h1 {
 	font-weight: bold;
@@ -33,7 +31,7 @@ a {
 button {
 	border-radius: 20px;
 	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	background-color: linear-gradient(to right, #FFBE7BFF, #FFA351FF);;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -78,8 +76,7 @@ input {
 .container {
 	background-color: #fff;
 	border-radius: 10px;
-  	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
-			0 10px 10px rgba(0,0,0,0.22);
+  	box-shadow: 0 14px 14px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.1);
 	position: relative;
 	overflow: hidden;
 	max-width: 100%;
@@ -145,8 +142,7 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
-	background: linear-gradient(to right, #ff0a42, #FF416C);
+	background: linear-gradient(to left, #FFBE7BFF, #FFA351FF);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -231,7 +227,7 @@ footer i {
 }
 
 footer a {
-    color: #3c97bf;
+	color: #3c97bf;
     text-decoration: none;
 }
 
@@ -244,7 +240,7 @@ footer a {
 }
 
 .socialmedia_hover:hover {
-  background-color: rgb(225, 225, 225) !important;
+  background-color: linear-gradient(to right, #FFBE7BFF, #FFA351FF) !important;
   transition: 700ms;
 }
 
@@ -254,14 +250,14 @@ footer a {
 
 .link::after {
   content: '';
-	color: black;
+color: black;
   width: 0px;
   height: 3px;
   display: block;
-  background: linear-gradient(to right, #FF4B2B, #FF416C);;
+  background: linear-gradient(to left, #FFBE7BFF, #FFA351FF);
   transition: 300ms;
   text-decoration: underline overline;
-	margin-left: 40px;
+margin-left: 40px;
 }
 
 .link:hover::after {
