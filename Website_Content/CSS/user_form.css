@@ -3,7 +3,7 @@
 .form-btn-error {
   background: transparent;
   font-size: 1rem;
-  color: black;
+  color: gray;
   cursor: pointer;
   border: 1px solid transparent;
   padding: 5px 24px;
@@ -72,7 +72,7 @@
 
 .form-btn-cancel {
   transition: color 0.28s ease, transform 0.28s ease;
-  color: black;
+  color: gray;
   border-color: currentColor;
   will-change: color, transform;
 }
@@ -94,7 +94,7 @@
 
 .form-btn-cancel:focus,
 .form-btn-cancel:hover {
-  color: black;
+  color: gray;
 }
 
 .form-btn-cancel:focus::before,
@@ -126,7 +126,7 @@
 .form-radio-legend {
   margin: 0 0 0.125rem 0;
   font-size: 20px;
-  color: black;
+  color: gray;
 }
 
 .form-checkbox-label,
@@ -135,14 +135,14 @@
   cursor: pointer;
   padding-left: 1.5rem;
   text-align: left;
-  color: black;
+  color: gray;
   display: block;
   margin-bottom: 0.5rem;
 }
 
 .form-checkbox-label:hover i,
 .form-radio-label:hover i {
-  color: black;
+  color: gray;
 }
 
 .form-checkbox-label span,
@@ -168,7 +168,7 @@
   -ms-user-select: none;
   user-select: none;
   display: block;
-  color: black;
+  color: gray;
   left: 0;
   top: 0.25rem;
   width: 1rem;
@@ -185,7 +185,7 @@
   position: absolute;
   height: 0;
   width: 0.2rem;
-  background-color: black;
+  background-color: gray;
   display: block;
   transform-origin: left top;
   border-radius: 0.25rem;
@@ -209,7 +209,7 @@
 }
 
 .form-checkbox-field:checked ~ .form-checkbox-button {
-  color: black;
+  color: gray;
 }
 
 .form-checkbox-field:checked ~ .form-checkbox-button::after,
@@ -236,7 +236,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: black;
+  color: gray;
 }
 
 .form-radio-button::before,
@@ -256,8 +256,8 @@
 
 .form-radio-button::after {
   transform: scale(0);
-  background-color: black;
-  border-color: black;
+  background-color: gray;
+  border-color: gray;
 }
 
 .form-radio-field:checked ~ .form-radio-button::after {
@@ -265,12 +265,12 @@
 }
 
 .form-radio-field:checked ~ .form-radio-button::before {
-  color: black;
+  color: gray;
 }
 
 .form-has-error .form-checkbox-button,
 .form-has-error .form-radio-button {
-  color: black;
+  color: gray;
 }
 
 .form-card {
@@ -347,14 +347,14 @@
 
 .form-element-hint {
   font-size: 0.6875rem;
-  color: black;
+  color: gray;
   display: block;
 }
 
 .form-element-bar {
   position: relative;
   height: 1px;
-  background: black;
+  background: gray;
   display: block;
 }
 
@@ -364,7 +364,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: black;
+  background: gray;
   height: 2px;
   display: block;
   transform: rotateY(90deg);
@@ -381,11 +381,11 @@
   z-index: 1;
   font-size: 1rem;
   font-weight: normal;
-  black-space: nowrap;
+  gray-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 0;
-  color: black;
+  color: gray;
   transform: translateY(-50%);
   transform-origin: left center;
   transition: transform 0.28s ease, color 0.28s linear, opacity 0.28s linear;
@@ -403,7 +403,7 @@
   border: 0 solid transparent;
   line-height: 1.5;
   width: 100%;
-  color: black;
+  color: gray;
   box-shadow: none;
   opacity: 0.001;
   transition: opacity 0.28s ease;
@@ -411,13 +411,13 @@
 }
 
 .form-element-field:-ms-input-placeholder {
-  color: black;
+  color: gray;
   transform: scale(0.9);
   transform-origin: left top;
 }
 
 .form-element-field::placeholder {
-  color: black;
+  color: gray;
   transform: scale(0.9);
   transform-origin: left top;
 }
@@ -427,7 +427,7 @@
 }
 
 .form-element-field:focus ~ .form-element-label {
-  color: black;
+  color: gray;
 }
 
 .form-element-field.-hasvalue,
@@ -444,21 +444,21 @@
 
 .form-has-error .form-element-label.form-element-label,
 .form-has-error .form-element-hint {
-  color: black;
+  color: gray;
 }
 
 .form-has-error .form-element-bar,
 .form-has-error .form-element-bar::after {
-  background: black;
+  background: gray;
 }
 
 .form-is-success .form-element-label.form-element-label,
 .form-is-success .form-element-hint {
-  color: black;
+  color: gray;
 }
 
 .form-is-success .form-element-bar::after {
-  background: black;
+  background: gray;
 }
 
 input.form-element-field:not(:placeholder-shown),
@@ -486,7 +486,7 @@ select.form-element-field {
 }
 
 .form-select-placeholder {
-  color: black;
+  color: gray;
   display: none;
 }
 
@@ -528,7 +528,7 @@ animation-iteration-count: infinite;
 }
 
 @keyframes user_form_actual_move {
-0% {margin-top: 50px;}
-50% {margin-top: 70px;}
-100% {margin-top: 50px;}
+  0% {margin-top: 15vh;}
+  50% {margin-top: 20vh;}
+  100% {margin-top: 15vh;}
 }
