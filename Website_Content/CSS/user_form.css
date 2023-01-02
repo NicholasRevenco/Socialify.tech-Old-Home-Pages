@@ -518,3 +518,17 @@ select.form-element-field {
   -webkit-appearance: none;
   margin: 0;
 }
+
+.user_form_move {
+height: 100px;
+margin-top: 100px;
+animation-name: user_form_actual_move;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes user_form_actual_move {
+0% {margin-top: 50px;}
+50% {margin-top: 70px;}
+100% {margin-top: 50px;}
+}
