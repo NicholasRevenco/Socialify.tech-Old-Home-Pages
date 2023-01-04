@@ -8,6 +8,10 @@
 
     <!-- CSS file imports -->
     <link rel="stylesheet" type="text/css" href="CSS/user.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/navbar.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/scroll.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/index.css"/>
 
     <!-- Bootstrap imports -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -16,6 +20,52 @@
   </head>
 
   <body>
+
+    <nav class="container-fliud navbar navbar-expand-sm sticky-top navbar_change" style="position: fixed;">
+      <!-- Logo -->
+      <a style="margin-left: 5%;" class="navbar-brand" href="index.html"><img class="nav_home" alt="Logo" style="width: 100px;" src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo.png"/></a>
+      <!-- Navbar collapse button -->
+      <button style="margin-right: 5%; border: none;" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_id" aria-controls="collapse_id" aria-expanded="false">
+        <span class="toggler-icon top-bar bar_change_1"></span>
+        <span class="toggler-icon middle-bar bar_change_2"></span>
+        <span class="toggler-icon bottom-bar bar_change_3"></span>
+      </button>
+      <!-- Content links on navbar -->
+      <div class="container-flex collapse navbar-collapse">
+        <ul class="navbar-nav" style="margin-left: auto; margin-right: auto; text-align: center;">
+          <li class="nav-item">
+            <a style="font-weight: 600;" class="nav-link navbar_link_1 navbar_link_scroll_1" href="#quick_info">Quick Info</a>
+          </li>
+          <li class="nav-item">
+            <a style="font-weight: 600;" class="nav-link navbar_link_2 navbar_link_scroll_2"  href="#post">Post</a>
+          </li>
+          <li class="nav-item">
+            <a style="font-weight: 600;" class="nav-link navbar_link_3 navbar_link_scroll_3"  href="#trends">Trends</a>
+          </li>
+        </ul>
+        <!-- Button on navbar -->
+          <a class="btn navbar_button" style="font-weight: 600; font-size: 14px; margin-right: 5%; width: 100px; border-color: white;" href="planning.html">Log Out</a>
+      </div>
+    </nav>
+
+    <!-- Navbar collapse -->
+    <div id="navbar_open_close">
+      <div class="offcanvas offcanvas-end offcanvas-body" style="background-color: rgb(250, 250, 250); width: 100%; margin-top: 75px;" id="collapse_id">
+        <!-- Content of navbar collapse -->
+        <div style="margin-left: auto; margin-right: auto; text-align: center; display: grid; height: 66%; align-content: space-evenly;">
+          <div style="margin-top: -75px;">
+            <a style="font-weight: 600; font-size: 18px;" class="nav-link text-dark navbar_link_collapsed" href="#quick_info">Quick Information &#5167;</a>
+          </div>
+          <div style="margin-top: -75px;">
+            <a style="font-weight: 600; font-size: 18px;" class="nav-link text-dark navbar_link_collapsed"  href="#post">Post &#5167;</a>
+          </div>
+          <div style="margin-top: -75px;">
+            <a style="font-weight: 600; font-size: 18px;" class="nav-link text-dark navbar_link_collapsed"  href="#trends">Trends &#5167;</a>
+          </div>
+        </div>
+        <a class="btn btn-dark" style="font-weight: 600; font-size: 18px; margin-left: auto; margin-right: auto; width: 50%; margin-top: -75px;" href="planning.html">Getting Started</a>
+      </div>
+    </div>
 
     <div style="padding-top: 10%; padding-bottom: 0%; text-align: center; background: #ff9d94;" class="text-light">
       <h1 style="text-decoration: overline underline; margin-top: 25vh;">Hi Nicholas!</h1>
@@ -30,7 +80,7 @@
 
     <div class="container" style="margin-top: 50%;">
       <h1 style="text-align: center; color: #ff9d94; margin-top: 5vh; margin-bottom: 5vh">Quick Information</h1>
-      <div class="row container">
+      <div class="row container" id="quick_info">
         <div class="col-6 col-md-3">
           <div class="container rounded text-light" style="background-color: #ff9d94; text-align: center; padding-top: 1vw; margin-bottom: 4vw;">
             <a href="#" style="text-decoration: none;">
@@ -68,12 +118,17 @@
   </div>
 
 
-    <!-- <div class="container rounded" style="padding: 5%; max-width: 25%; text-align: center; color: #ff9d94; background-color: #ff9d94;">
-      <h6>Please complete this:</h6>
-      <img class="rounded" src="Images/user_form_picture .png"/ style="max-height: 150px;">
-    </div> -->
+    <div class="container-flex" style=" text-align: center; padding: 15vh; margin-top: 10vh; background-color: #ff9d94;">
+      <div class="main_post">
+        <div class="button_post">
+          <div class="span_post" style="text-transform: uppercase;">Post!</div>
+        </div>
+      </main>
+    </div>
     <!-- JavaScript imports -->
     <script src="JavaScript/user.js"></script>
+    <script src="JavaScript/navbar.js"></script>
+    <script src="JavaScript/scroll.js"></script>
 
   </body>
 </html>
