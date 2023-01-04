@@ -1,10 +1,12 @@
-
+/* For the header into the content sectin */
  .svg-container {
 	 position: absolute;
 	 right: 0;
 	 left: 0;
 	 z-index: -1;
 }
+
+/* For the post button */
 
  .main_post {
 	 display: flex;
